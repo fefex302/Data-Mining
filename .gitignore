@@ -1,0 +1,8 @@
+# Ignora la cartella dell'ambiente virtuale
+.venv/
+
+# Ignora la cartella dei dataset
+dataset/
+
+# Ignora la cartella della cache Python
+__pycache__/
