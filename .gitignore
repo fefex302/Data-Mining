@@ -1,8 +1,3 @@
-# Ignora la cartella dell'ambiente virtuale
-.venv/
+# File da ignorare per il push
 
-# Ignora la cartella dei dataset
-dataset/
-
-# Ignora la cartella della cache Python
-__pycache__/
+/dataset
