@@ -6,9 +6,9 @@ from typing import Dict
 import pandas
 
 
-def correlations(dataset: pandas.DataFrame) -> pandas.DataFrame:
+def correlations(dataset: pandas.DataFrame, numeric_only=True) -> pandas.DataFrame:
     correlations_dictionary = {
-        correlation_type: dataset.corr(numeric_only=True, method=correlation_type)
+        correlation_type: dataset.corr(numeric_only=numeric_only, method=correlation_type)
         for correlation_type in ("kendall", "pearson", "spearman")
     }
     for i, k in enumerate(correlations_dictionary.keys()):
