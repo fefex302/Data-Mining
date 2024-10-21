@@ -1,0 +1,6 @@
+1) Davvero non possiamo fare correlazione tra valori come:
+    -Punteggio gara e lunghezza del percorso
+    -Punteggio gara e total climb
+    -startlist quality e punteggio gara
+
+2) Non posso fare una sorta di correlazione fra 'points' e 'uci points' per magari creare un unico punteggio e fillare eventuali valori mancanti.
